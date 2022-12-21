@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../assets/img/paven.png);
+    margin: 0;
+    position: relative;
+    padding-bottom: 9em;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #050404e1;
+    display: flex;
+}
+
+
+.pie {
+    color: white;
+}
+
+nav {
+    width: 100%;
+}
+
+.navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-item a {
+    margin-right: 5px;
+    padding: 8px;
+    background-color: rgb(252, 105, 14);
+    border-radius: 8%;
+}
+
+.nav-item a:hover {
+    background-color: rgba(96, 199, 11, 0.694);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+
+    }
+    nav{
+        padding: 10px 0px;
+        width: 20%;
+        
+    }
+}
+
+header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    width: 40%;
+    display: flex;
+}
+
+header div img {
+    padding: 5px;
+    border-radius: 50%;
+    width: 12%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "nevis";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    text-shadow: 0px 2px 1px #333333;
+    color: #70b231;
+}
+
+.imagen_principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.imagen_principal img {
+    width: 35%;
+    border-radius: 30%;
+    /*height: auto;*/
+}
+
+footer {
+    background-color: #050404e1;
+    padding: 2px 0 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer div {
+    width: 100%;
+}
+
+footer div p {
+    text-align: center;
+}
+
+.redes_sociales {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.redes_sociales li a{
+    width: 3%;
+    padding: 5px;
+}
+
+i {
+    font-size: 70px;
+}
+
+p {
+    margin-top: 5px;
+    padding: 10px;
+    text-align: justify;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imaa {
+    max-width: 100%;
+    align-items: center;
+}
+
+.caja1 {
+    width: 400px;
+    height: 200px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.caja2 {
+    width: 400px;
+    height: 200px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.ima_nosotros {
+    justify-content: center;
+    border-radius: 20%;
+    display: flex;
+}
+
+.ima_nosotros img{
+    width: 55%;
+}
+
+.caja_plan {
+    background: black;
+    text-align: center;
+    max-width: 100%;
+    width: 300px;
+    height: 100%;
+    margin: 20px 50px;
+    color: white;
+}
+
+.plan {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.btn-outline-primary {
+    color: #fe9600;
+    border-color: #fe9600;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    border-color: white;
+}
+
+.caja_plan {
+    padding: 5px;
+}
+
+.padin {
+    padding: 5px;
+}
+
+.container-fluid img {
+    width: 9%;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.container p{
+    margin-bottom: 15px;
+}
