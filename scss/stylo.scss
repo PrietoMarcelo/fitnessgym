@@ -200,7 +200,7 @@ h2 {
 }
 
 .plan {
-    text-align: left;
+    text-align: justify;
     margin-left: 5px;
 }
 
@@ -229,6 +229,7 @@ h2 {
 
 .caja_plan {
     padding: 5px;
+    align-items: center;
 }
 
 .padin {
@@ -243,4 +244,16 @@ h2 {
 
 .container p{
     margin-bottom: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.modal-footer{
+    display: flex;
+    position: absolute;
+    justify-content: center;
 }
